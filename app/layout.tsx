@@ -11,7 +11,7 @@ const font = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "camisasTop",
-  description: "Loja para a venda de camisas de time",
+  description: "Camisetas e roupas de time importadas",
 };
 
 export default function RootLayout({
