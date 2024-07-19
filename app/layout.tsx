@@ -20,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={font.className}>
+    <html className="bg-white" lang="en">
+      <body  className={font.className}>
         <ModalProvider />
         <ToastProvider />
         <Navbar /> 
